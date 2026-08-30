@@ -4,7 +4,7 @@
 
 **Passwords • Passkeys • Privacidade • DNS • Ad-blocking**
 
-Fernando 🐼 — Setembro 2026
+Fernando 🐼 - Setembro 2026
 
 ## Notes
 Bem-vindo! 75 min sem jargão, tudo gratuito e fazes hoje. Interrompe e pergunta. No fim sais com checklist de 5 passos.
