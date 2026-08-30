@@ -1,0 +1,14 @@
+timecode,duracao_s,vo_snippet,visual,asset_fonte,notas
+0:00-0:35,24,"No último vídeo trancámos a porta... traz o telemóvel.",GSlides 14 PARTE B + recap 1,GSlides,ponte
+0:35-1:36,41,"Vamos tirar isto da frente... não é privacidade.",GSlides 15 split FAZ/NÃO FAZ + aviso Chrome incógnito,GSlides + screenshot,
+0:36-2:17,41,"E aqueles banners... Clica sempre em rejeitar.",GSlides 16 banner cookies 100 parceiros + Consent-O-Matic,GSlides + Pexels,
+2:17-2:44,27,"Durante anos o browser... Um clique.",GSlides 17 GPC + Brave/Firefox toggle,GSlides + screencast,
+2:44-3:15,31,"E o telemóvel? Sim está... Faz agora mesmo.",Screencast iPhone IDFA + Android GAID lado a lado,OBS blur,ao vivo
+3:15-4:10,55,"Quando escreves google.com... protege a casa toda.",Animação DNS + GSlides 19-20 + IPs overlay,GSlides + Ideogram,1.1.1.3 e 86.54.11.13
+4:10-4:51,41,"Vai a my.nextdns.io... mas para a maioria isto chega.",Screencast NextDNS dashboard + antes/depois,OBS,
+4:51-5:32,41,"Anúncio não é só imagem... Começa pelo uBlock.",GSlides 22-24 + screencast uBlock + Badger + nuMatrix,GSlides + OBS,
+5:32-5:59,27,"Email. Gmail ignora pontos... Usa SimpleLogin Addy.",GSlides 25-26 email alias,GSlides,
+5:59-6:27,27,"E compras? Nunca uses o cartão físico... podes deitar fora.",GSlides 27 Compras + MB WAY virtual + Revolut single-use,GSlides + Pexels,
+6:27-7:01,34,"Rede privada é túnel... Precisas mesmo de Wi-Fi público? Liga a VPN.",GSlides 28-29 VPN + GSlides 30 Wi-Fi + hotspot evil twin,GSlides,
+7:01-7:28,27,"Quando copias um link... Tracking Token Stripper limpa ao copiar.",GSlides 31 Links sujos + demo altsea.app,GSlides + OBS,
+7:28-7:43,15,"Foto neste slide... traz alguém.",GSlides 32 Plano + QR + Recursos,GSlides + qr-grid,

@@ -1,0 +1,134 @@
+# Vídeo #2 — Privacidade: fecha as janelas que deixaste abertas
+### PT-PT • ~8:00 • Tom B energético • Voz pt-PT-DuarteNeural +12% • 0% termos ingleses falados
+
+> Fonte: `slides-ptpt.md` slides 14–37 (Parte B + 2 novas: compras e Wi-Fi). Inglês técnico só em overlay.
+> Duração alvo: ~10:30 a 155 wpm = ~1620 palavras. Este guião: ~1380 palavras (~8:50 a ritmo real).
+
+---
+
+## 0:00–0:35 — Abertura: não é sobre esconder, é sobre escolher [slide 12]
+
+No último vídeo trancámos a porta. Agora vamos fechar as janelas.
+
+Privacidade não é para quem tem algo a esconder. É para quem quer escolher o que partilha, com quem e quando. E por defeito, neste momento, estás a partilhar tudo com toda a gente.
+
+Em oito minutos vais perceber porque é que o modo anónimo não te protege, porque levas com tantos banners, como desligas o rastreio no telemóvel em trinta segundos e como bloqueias rastreadores para toda a casa sem instalar nada em cada aparelho.
+
+## 0:35–1:35 — Mito: o modo anónimo protege-me [slide 13]
+
+Vamos tirar isto da frente. Modo anónimo não é modo invisível.
+
+O que faz: apaga histórico e cookies no teu aparelho quando fechas a janela. Ótimo para emprestar o portátil.
+
+O que não faz: não esconde o teu endereço na rede. O fornecedor de internet vê. O patrão vê. O Google e o Facebook continuam a seguir-te. Não é rede privada, não é anonimato.
+
+É como apagar pegadas em casa mas com câmaras na rua a filmar. Útil, mas não é privacidade.
+
+## 1:35–2:35 — Porque vês tantos banners [slide 14]
+
+E aqueles banners de cookies em todo o lado? Lei europeia.
+
+Na União Europeia, rastrear só com consentimento. Aceitar tudo é dar luz verde a cem ou mais rastreadores para venderem o teu comportamento. Rejeitar ou só necessários mantém-te só com o essencial. O site tem de funcionar na mesma.
+
+Sê chato de propósito. Clica sempre em rejeitar ou gerir e escolhe só necessários. Se quiseres automatizar, usa o Consent-O-Matic — clica por ti.
+
+## 2:35–3:15 — Não sigas o rasto que ninguém respeitou [slide 15]
+
+Durante anos o browser tinha um botão a dizer por favor não me sigas. Chamava-se Não Rastrear. Ninguém respeitou. Era só um pedido.
+
+Agora há um sucessor com força legal: Controlo Global de Privacidade. Na Califórnia e na Europa já tem dentes. Se o teu browser envia o sinal, as empresas têm de respeitar.
+
+Brave já vem ligado. No Firefox vais a definições, privacidade, e ativas o controlo global. Um clique. O teu browser passa a dizer não por ti, em todo o lado.
+
+## 3:15–4:00 — O teu telemóvel está a seguir-te entre apps [slide 16]
+
+E o telemóvel? Sim, está.
+
+Cada telefone tem um identificador de publicidade. No iPhone chama-se IDFA, no Android GAID. Serve para te seguir entre apps e montar o teu perfil.
+
+Desliga agora, demora trinta segundos. iPhone: definições, privacidade e segurança, rastreio, desativa permitir que as apps peçam para rastrear. Android: definições, privacidade, anúncios, elimina ID e desativa personalização.
+
+Faz agora mesmo. Não tiras os anúncios, mas impedes que te sigam de app em app. Desde que a Apple apertou isto, o rastreio entre apps caiu mais de sessenta por cento.
+
+## 4:00–5:20 — O que é DNS? O porteiro do prédio [slides 17–18]
+
+Ok, parte mais importante e mais simples.
+
+Quando escreves `google.com`, o telemóvel pergunta ao DNS onde fica o `142.250.180.14`. É a lista telefónica da internet.
+
+Se controlares essa lista, bloqueias porcaria antes de carregar. Sem instalar nada em cada aparelho.
+
+Tens três porteiros à escolha.
+
+Um, Cloudflare Families: `1.1.1.2` bloqueia vírus, `1.1.1.3` bloqueia vírus mais conteúdo adulto. Grátis, rápido.
+
+Dois, DNS4EU: europeu, sem registos, respeita RGPD, `86.54.11.13`. Boa opção se queres dados na UE.
+
+Três, NextDNS: o meu favorito. Personalizável, trezentas mil consultas por mês grátis, vês por aparelho o que foi bloqueado. É o que vamos montar agora.
+
+E o truque: configura no router e proteges a casa toda — telemóveis, televisões, consolas — sem tocar em cada um.
+
+## 5:20–6:20 — Demo NextDNS em dois minutos [slide 19]
+
+Vai a `my.nextdns.io`, cria conta grátis.
+
+Em listas, ativa NextDNS Ads and Trackers mais StevenBlack. Liga a proteção contra rastreio nativo.
+
+Depois instala. No iPhone é um perfil, um toque. No Android é a app. No router colas dois endereços e já está.
+
+Volta ao painel e vês em tempo real: quantos pedidos, quantos bloqueados, por aparelho. Abre um site de notícias antes e depois. De dez segundos e cinquenta rastreadores passas para três segundos e dois.
+
+Trezentas mil consultas chegam para duas a três pessoas. Se quiseres ir mais longe, há Pi-hole, mas para a maioria, isto chega.
+
+## 6:20–7:20 — Bloquear anúncios não é estética, é privacidade [slides 20–22]
+
+Anúncio na web não é só imagem. É rastreador entre sites.
+
+Bloquear é mais rápido, mais bateria, menos vírus.
+
+Para todos: uBlock Origin. Instala e esquece. Em `ublockorigin.com`, extensão para o browser, leve, bloqueia noventa por cento. Não precisas de cinco bloqueadores ao mesmo tempo. Um chega.
+
+Para quem quer aprender: Privacy Badger, da EFF. Aprende sozinho quem te segue em três ou mais sites e corta.
+
+Para curiosos e mais técnicos: nuMatrix. É uma matriz por domínio — consegues controlar o que cada site carrega, script, cookie, vídeo. Poderoso, mas parte sites no início até aprenderes. Começa pelo uBlock, domina, depois brinca com isto se quiseres.
+
+## 7:20–8:00 — Bónus que vale dinheiro: email e aliases [slides 23–26]
+
+Email. Gmail ignora pontos e aceita mais, tipo `joao+loja@gmail.com`. Dá para organizar, mas não esconde — tira-se num segundo. Para privacidade real cria aliases aleatórios: em vez de `joao@gmail.com` usas `joao.loja.8f3k@aleatorio.simplelogin.com`. Spam? Desligas com um clique. Fuga? Sabes quem vendeu. Usa SimpleLogin, Addy, ou Hide My Email da Apple.
+
+## 8:00–8:40 — Compras online — paga sem expor o cartão [slide 27]
+
+E compras? Nunca uses o cartão físico direto numa loja que não conheces.
+
+Cria um virtual em dez segundos: MB WAY, Revolut single-use ou Privacy. Se vazar, cancelas o virtual e o físico fica intacto. Verifica sempre `https` mais cadeado mais NIF ou contacto da loja. `fnac.pt` é uma coisa, `fnac-oferta.com` é outra. E ativa notificações e limites no banco — vês logo se tentarem usar.
+
+Virtual vazado? Cancelas em dez segundos. É como dar uma cópia da chave que podes deitar fora.
+
+## 8:40–9:30 — Rede privada e Wi-Fi de casa vs da rua [slides 28–30]
+
+Rede privada é túnel cifrado, não capa de invisibilidade. Esconde o tráfego até ao servidor, útil em Wi-Fi público, mas não bloqueia rastreadores nem te torna anónimo com sessão iniciada. Para o dia a dia, NextDNS mais uBlock já dão oitenta por cento. Se precisares mesmo, Mullvad ou Proton VPN. Grátis que não seja Proton, desconfia.
+
+E Wi-Fi? Em casa, router com WPA3 mais DNS filtrado protege a casa toda. Fora, no café, aeroporto ou hotel, rede aberta é montra: tráfego não cifrado fica visível e há redes falsas tipo “Hotel WiFi FREE”. Desativa “ligar automaticamente” e usa dados móveis de preferência. Precisas mesmo de Wi-Fi público? Liga a VPN.
+
+## 9:30–10:10 — Ligações sujas — limpa antes de partilhar [slide 31]
+
+Quando copias um link do Instagram ou Facebook vem sujo: `?utm_source=...&fbclid=...&igsh=...` que diz quem clicou e quem partilhou. O código do Instagram até pode denunciar quem partilhou. Regra: partilha só até ao `?`, apaga o resto. No Android cola em `altsea.app` e copia limpo. No computador o Tracking Token Stripper limpa ao copiar.
+
+## 10:10–10:30 — O teu plano de hoje [slide 32]
+
+Foto neste slide. Faz hoje à noite, trinta minutos.
+
+Um, gestor instalado e cinco passwords críticas trocadas.
+Dois, primeira chave de acesso criada.
+Três, email verificado em `haveibeenpwned ponto com` com alerta ligado.
+Quatro, telemóvel sem rastreio entre apps e DNS no NextDNS ou `1.1.1.3`.
+Cinco, browser com uBlock Origin.
+
+Um, dois e três já são oitenta por cento do ganho.
+
+Guarda os dois vídeos e traz alguém. Link para todos os recursos e QR na descrição.
+
+---
+**Notas de produção:**
+- Mesmo tratamento VO que #1: `pt-PT-DuarteNeural +12%`, sem inglês falado — `IGSH` dito como "igsh" soletrado? dizer "código de partilha do Instagram" em vez de soletrar.
+- Visuais: GSlides 12–28 + screencasts telemóvel (desligar rastreio) + screencast NextDNS + screencast uBlock + demo altsea.app

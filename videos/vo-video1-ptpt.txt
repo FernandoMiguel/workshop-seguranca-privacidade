@@ -1,0 +1,42 @@
+Olha para o teu telemóvel. Email, banco, Instagram, finanças. Tudo protegido por... uma palavra que inventaste há cinco anos e repetiste em todo o lado.
+Hoje vamos fechar essa porta. Em sete minutos vais perceber porque é que as tuas passwords falham, como um gestor resolve isso em cinco minutos, porque é que as chaves de acesso são o futuro e como ver em trinta segundos se já foste exposto. Traz o telemóvel. Vamos fazer ao vivo.
+Em Portugal, em 2024, as duas passwords mais usadas ainda são 123456 e password. 65% das pessoas repetem a mesma em vários sites.
+O problema não é seres descuidado. É matemática. Uma fuga num site pequeno — um fórum, uma loja — e esse email mais essa password vão parar a uma lista. Bots pegam nessa lista e disparam contra o Gmail, o Instagram, a banca. Automaticamente. Mil tentativas por segundo. Uma chave para todas as portas.
+E não é preciso seres alvo. É em massa. A maior base pública de fugas já tem mais de catorze mil milhões de contas.
+Agora, o que é uma password forte? Não é a que tem um ponto de exclamação no fim. `P@ssw0rd!` parece forte, mas é curta e previsível. Cai em segundos.
+Forte é longa. Quatorze a dezasseis caracteres no mínimo. Única em cada site. Aleatória. Se a consegues decorar, é fraca. Uma boa é uma frase de quatro palavras que só tu conheces, tipo `correct horse battery staple`, ou melhor ainda, uma gerada à sorte tipo `k9$Lp-27q-VALE-azul-trovão-482`. Vinte e oito caracteres, impossível de adivinhar.
+Regra de ouro: longa, única, aleatória. E deixa de tentar decorar duzentas.
+É aqui que entra o gestor de passwords. Pensa num cofre cifrado. Tu decoras uma única frase mestra — longa, tua, tipo `vale azul trovão 482` — e ele cria e guarda as outras duzentas. Só tu tens a chave. Nem a empresa consegue abrir.
+Recomendo três, todos auditados e com zero conhecimento: Bitwarden, Proton Pass e 1Password. Bitwarden é gratuito e chega perfeitamente. Proton Pass é ótimo se já usas Proton. 1Password é pago e muito polido.
+E não, guardar no Chrome sem frase mestra não é cofre. É gaveta aberta.
+Como passas para lá em cinco minutos, hoje ao almoço?
+Passo um: instala a app no telemóvel e a extensão no browser. Cria a tua frase mestra.
+Passo dois: importa. Dois cliques. Chrome, Firefox, até o ficheiro do iCloud. Traz tudo de uma vez.
+Passo três: troca só as cinco críticas. Email. Banco. Google ou Apple. Instagram. Finanças. Só essas. O resto logo vês. E ativa a verificação em duas etapas no próprio cofre.
+O gestor já te diz onde repetiste ou onde usas fraca. Em cinco minutos ficas com oitenta por cento do risco resolvido. Não precisas de fazer tudo hoje. Precisas de começar hoje.
+Agora, e se nem precisasses de password?
+Uma chave de acesso funciona como um cadeado e uma chave partida ao meio. O site guarda o cadeado, que é público. O teu telemóvel guarda a chave privada, que nunca sai. Desbloqueias com a cara ou com o dedo. Nada para decorar, nada para te roubarem no servidor.
+E o melhor: é à prova de burla. Um site falso pode copiar o aspeto do Gmail, mas não tem o cadeado certo. O teu telemóvel recusa. A burla falha logo ali. É também mais rápido e já são dois fatores num só: algo que tens, o telemóvel, mais algo que és, a cara ou o dedo.
+Quando um site oferece criar chave de acesso, aceita. Google, Apple, Microsoft, GitHub já têm. Vais a `myaccount.google.com`, segurança, chaves de acesso, criar. Fica guardada no gestor do iCloud ou da Google e sincroniza.
+E não precisas de escolher um ou outro. Em 2026 a prática é simples: chave de acesso onde puderes, gestor para o resto. Um site ainda não tem chave? Gestor. Tem? Chave. Complementam-se.
+Podes ver a lista em `passkeys.directory`, mas não precisas de decorar. Só lembra: se o botão disser criar chave de acesso, carrega.
+Trinta segundos para tirar a dúvida. Vai a `haveibeenpwned.com`. Escreve o teu email. Verde, estás seguro por agora. Vermelho, estiveste numa fuga. Carrega para ver onde e o que vazou.
+Se estiver vermelho, faz isto já: muda a password nesse site e em todos onde a repetiste. Ativa a verificação em duas etapas. E clica em `Notify me` para seres avisado da próxima vez. O site é do investigador Troy Hunt, não envia spam, só avisa.
+Faz agora com o teu email pessoal. Não mostres no ecrã se estiveres em grupo, mas faz. Metade das pessoas que vejo fica vermelha à primeira. Não é vergonha. É motivo para agir hoje.
+E já agora, não precisas de pagar para saber. Este site é gratuito e fiável.
+Password falha. Acontece. Por isso precisas de cinto de segurança.
+Ativa já em cinco sítios: email, banco, Apple ou Google, Instagram ou TikTok, e banca ou finanças.
+Por ordem de segurança: chave de acesso primeiro, depois app de códigos no telemóvel tipo Ente, Aegis, Proton Authenticator ou 2FAS, e só em último caso mensagem. Mensagem é fraca, trocam-te o cartão e já está.
+E cuidado com as burlas de 2026. Já não são aquele email com erros. São mensagens perfeitas, vozes clonadas, sites idênticos. A regra é simples e salva-te sempre: nunca cliques num link de email ou mensagem para entrar. Vai tu ao site. Escreve o endereço. Abre a app.
+Duas etapas não é paranoia. É o que te safa quando a password falha.
+Mas repara: não precisam de hackear o teu PC. Basta enganarem-te a ti.
+Urgência, medo, curiosidade. “Olá mãe, mudei de número, faz MB WAY agora.” “Sou da Microsoft, o teu PC tem vírus, instala o AnyDesk.” “A tua encomenda está retida, clica aqui.”
+Tudo igual: criam pressão para não pensares. A defesa é sempre a mesma. Pára. Desconfia. Confirma por outro canal. Liga para o número antigo da tua mãe. Vai tu ao site do banco. Nunca instales nada porque alguém ao telefone te mandou.
+Se há urgência, há burla. Esta frase sozinha já te safa de noventa por cento.
+Dois segundos que te poupam horas.
+No computador, faz hover: põe o rato em cima do link e vê em baixo para onde vais mesmo. No telemóvel, toque longo para ver o destino. O texto diz `fnac.pt` mas o link vai para `fnac-pt-oferta.com`? Não cliques.
+Email ou mensagem com link ou anexo urgente? Não abras. Vai direto à app ou ao site. Escreve o endereço. E downloads só de sites oficiais. `https` mais cadeado mais domínio exato. Se o domínio tem hífen, oferta, ou .com a mais, desconfia.
+Anexos `.zip`, `.exe`, `.scr` inesperados? Nunca.
+Hoje fizeste o mais difícil: percebeste o problema e tens o plano. Gestor instalado, frase mestra criada, cinco passwords trocadas, primeira chave de acesso, email verificado, e já sabes parar perante urgência e links falsos.
+No próximo vídeo vamos fechar a outra janela escancarada: a privacidade. Porque o modo anónimo não te protege, porque vês tantos banners, como desligas o rastreio no telemóvel em trinta segundos e como bloqueias anúncios e rastreadores para toda a casa sem instalar nada em cada aparelho.
+Guarda este vídeo e traz alguém. Demora trinta minutos hoje à noite e ficas com oitenta por cento feito.

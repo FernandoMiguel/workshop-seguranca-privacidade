@@ -182,6 +182,32 @@ Show a TOTP code spinning. Explain SMS is weak because of SIM swapping. Put an o
 
 ---
 
+# Social engineering — the weakest link is you
+
+- They don't hack your PC — they hack **you**: urgency, fear, curiosity
+- **WhatsApp “Hi mum/dad, I changed my number”** — asks for money via MB WAY
+- **Fake tech support:** “I'm from Microsoft / your bank — install AnyDesk”
+
+> Stop. Doubt it. Verify through another channel (call the old number).
+
+## Notes
+Show a real WhatsApp mum/dad scam screenshot + cloned voice call. The rule: urgency = red flag. Hang up and call them yourself.
+
+---
+
+# Stop. Check. Only then click.
+
+- **Hover before you click** — the real destination shows at the bottom. Does it match?
+- Email or text with an urgent link or attachment? Don't open it. Go directly to the site or app
+- Downloads only from official sites — `https` + exact domain (`fnac.pt` ≠ `fnac-pt-offer.com`)
+
+> Two seconds of checking saves hours of cleaning up.
+
+## Notes
+Demo hover on desktop vs long-press on mobile. Show a fake domain with hyphens. Attachments .zip/.exe = never open.
+
+---
+
 # PART B — PRIVACY
 ## Taking back control
 
@@ -377,6 +403,19 @@ Demo creating an alias in SimpleLogin or Proton Pass. One alias per service is d
 
 ---
 
+# Shopping online — pay without exposing your card
+
+- **Virtual / single-use card:** [MB WAY](https://www.mbway.pt) • Revolut single-use • [Privacy.com](https://privacy.com)
+- Check the shop: `https` + padlock + business ID/contact visible — beware `fnac-offer.com`
+- Turn on notifications and limits — if it leaks, you kill the virtual card in 10 seconds, physical card stays safe
+
+> Virtual card leaked? Cancel in 10 seconds. Physical card untouched.
+
+## Notes
+Demo MB WAY virtual card creation. Show Revolut single-use toggle. Check shop NIF/contact. Serious shops have HTTPS + real contact info.
+
+---
+
 # VPN — an encrypted tunnel, not an invisibility cloak
 
 **What it *does* do:**
@@ -409,6 +448,19 @@ SuperVPN, TurboVPN, GeckoVPN (100M+ installs each) — all caught selling logs a
 
 ## Notes
 Be blunt: a bad VPN is worse than no VPN. Many of the free ones are owned by the same handful of Chinese companies. If you can only use free, Proton Free is the only one I'd trust.
+
+---
+
+# Home Wi-Fi vs. street Wi-Fi
+
+- **At home:** router with WPA3 + filtered DNS (NextDNS) = whole house protected
+- **Out (café / airport / hotel):** open network = unencrypted traffic is visible — turn off “auto-join”
+- Really need it? Use **mobile data** or a **VPN** (Mullvad/Proton) — everything else already goes over `https`
+
+> At home your doorman is the router. On the street, bring your own.
+
+## Notes
+Explain evil twin (“Hotel WiFi FREE” clone), open hotspot with no password. Show how to turn off auto-join on iOS/Android. Mobile data beats open Wi-Fi.
 
 ---
 

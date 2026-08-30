@@ -182,6 +182,32 @@ Mostra QR TOTP. SMS fraco (SIM swap). Compara phishing antigo vs IA lado a lado.
 
 ---
 
+# Engenharia social — o elo mais fraco és tu
+
+- Não atacam o PC, atacam **ti**: urgência, medo, curiosidade
+- **WhatsApp “Olá mãe/pai, mudei de número”** — pede MB WAY urgente
+- **Falso apoio técnico:** “Sou da Microsoft/banco, instala AnyDesk”
+
+> Pára. Desconfia. Confirma por outro canal (liga para o número antigo).
+
+## Notes
+Mostra print real WhatsApp mãe/pai + chamada voz clonada. Regra: urgência = bandeira vermelha. Desliga e liga tu.
+
+---
+
+# Pára. Verifica. Só depois clica.
+
+- **Faz hover** antes de clicar — vê o destino em baixo, bate certo?
+- Email/SMS com link/anexo urgente? Não abras. Vai direto ao site/app
+- Downloads só de sites oficiais — `https` + domínio exato (`fnac.pt` ≠ `fnac-pt-oferta.com`)
+
+> 2 segundos a verificar poupam horas a limpar
+
+## Notes
+Demo hover no desktop vs toque longo no telemóvel. Mostra domínio falso com hífen. Anexos .zip/.exe = nunca.
+
+---
+
 # PARTE B — PRIVACIDADE
 ## Recuperar o controlo
 
@@ -377,6 +403,19 @@ Demo criar alias no SimpleLogin/Proton Pass. Alias por serviço = higiene digita
 
 ---
 
+# Compras online — paga sem expor o cartão
+
+- **Cartão virtual / temporário:** [MB WAY](https://www.mbway.pt) • Revolut single-use • [Privacy.com](https://privacy.com)
+- Verifica loja: `https` + cadeado + NIF/contacto visível — desconfia de `fnac-oferta.com`
+- Ativa notificações e limites no banco — se vazar, cancelas o virtual sem trocar o físico
+
+> Virtual vazado? Cancela em 10s. Físico intacto.
+
+## Notes
+Demo MB WAY criar virtual. Mostra Revolut single-use. Verifica whois/NIF. Lojas sérias têm HTTPS + contacto real.
+
+---
+
 # VPN — Túnel cifrado, não capa de invisibilidade
 
 **O que FAZ:**
@@ -409,6 +448,19 @@ SuperVPN, TurboVPN, GeckoVPN (100M+) — venderam logs, vazaram dados.
 
 ## Notes
 Alerta forte: pior que sem VPN. Muitas grátis são da mesma empresa chinesa. Se só podes grátis, Proton Free é a única confiável.
+
+---
+
+# Wi-Fi de casa vs da rua
+
+- **Em casa:** router com WPA3 + DNS filtrado (NextDNS) = toda a casa protegida
+- **Fora (café/aeroporto/hotel):** rede aberta = tráfego não cifrado visível — desativa “ligar automaticamente”
+- Precisas mesmo? Usa **dados móveis** ou **VPN** (Mullvad/Proton) — resto já vai por `https`
+
+> Em casa, porteiro no router. Na rua, leva o teu.
+
+## Notes
+Explica evil twin (rede “Hotel WiFi FREE” falsa), hotspot sem senha. Mostra como desligar auto-join iOS/Android. Dados móveis > Wi-Fi aberto.
 
 ---
 

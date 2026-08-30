@@ -2,3 +2,8 @@
 Thumbs.db
 *.tmp
 *.log
+# Vídeos — artefactos grandes locais (não versionar binários)
+videos/*.mp4
+videos/*.mp3
+videos/slides_pt/
+videos/*.vtt

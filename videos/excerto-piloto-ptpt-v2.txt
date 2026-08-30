@@ -1,0 +1,15 @@
+Olha para o teu telemóvel. Quantas vezes usaste a mesma password hoje?
+
+Se és como 65% dos portugueses, a resposta é: demasiadas.
+
+E é aqui que tudo falha. Usas "123456" ou o nome do cão com um ponto de exclamação. Achas que está seguro porque tem um símbolo. Não está.
+
+Hackers não adivinham. Eles testam. Vazou um site em 2012? Ainda hoje bots pegam nesse email e nessa password e varrem o Gmail, o Instagram e a tua banca, automaticamente. Uma chave para todas as portas.
+
+E a solução não é seres mais criativo. É seres mais preguiçoso.
+
+Tu só precisas de decorar UMA frase longa. Tipo "vale azul trovão 482". O gestor — Bitwarden ou Proton Pass — cria e guarda as outras duzentas. Longas, únicas, aleatórias.
+
+Em cinco minutos importas tudo do Chrome e trocas só as cinco críticas: email, banco, Google, Instagram e finanças. Feito. 80% do risco some ali.
+
+No próximo minuto mostro-te como.
