@@ -1,450 +1,450 @@
-# Practical Online Security & Privacy
+# Online Security & Privacy — Hands-On
 
-### Hands-on 75-min workshop for beginners
+### A 75-minute practical workshop for beginners
 
 **Passwords • Passkeys • Privacy • DNS • Ad-blocking**
 
 Fernando 🐼 — September 2026
 
 ## Notes
-Welcome! 75 min with no jargon, everything free and you can do it today. Jump in with questions anytime. You'll leave with a 5-step checklist.
+Welcome! No jargon, no scare tactics — just practical steps you can use today. Everything here is free. Jump in anytime with questions. You'll leave with a 5-step checklist you can do tonight.
 
 ---
 
-# What you'll take home today
+# What you'll walk away with today
 
-## 7 superpowers in 75 min
+## 7 quick wins in 75 minutes
 
-- 🔐 Hacker-proof passwords
-- 🔑 Passkeys — goodbye passwords
-- 🕵️ Check if you've been hacked
-- 📵 Stop tracking on your phone
-- 🛡️ Block ads/malware at the DNS level
-- 🧹 Clean tracking from links (avoid doxing)
-- 🔒 VPN — when to use it (and when it's a trap)
+- 🔐 Passwords that actually stand up to hackers
+- 🔑 Passkeys — the end of passwords
+- 🕵️ How to check if you've already been breached
+- 📵 How to stop your phone from tracking you
+- 🛡️ Blocking ads and malware at the DNS level
+- 🧹 Stripping tracking junk from links (and avoiding doxxing)
+- 🔒 VPNs — when they help, and when they're a trap
 
-> Bring your phone — we'll do it live
+> Keep your phone handy — we're doing this live.
 
 ## Notes
-Visual agenda. Say it's hands-on. Set expectations: by the end of Part A you'll have migrated to a password manager.
+Set expectations: this is hands-on, not a lecture. Tell them by the end of Part A they'll have moved at least one account to a password manager. Keep it visual and fast.
 
 ---
 
 # PART A — PASSWORDS
 ## Your first line of defense
 
-> "Security isn't a product, it's a habit."
+> "Security isn't a product — it's a habit."
 
-20% of the effort, 80% of the protection.
+Get this one habit right and you get 80% of the protection.
 
 ## Notes
-High-energy transition. Ask: "Who reuses the same password?" (hands up, no shame). Totally normal — let's fix it.
+High-energy transition. Ask: "Who's reused the same password on multiple sites?" Hands up — no shame, it's normal. We're about to fix it for good.
 
 ---
 
-# The problem is serious. And it's personal.
+# This is serious — and it's personal.
 
 - **123456** and **password** are still #1 and #2 worldwide (2024)
-- **65%** reuse the same password
-- 1 breach → every account at risk
+- **65%** of people reuse the same password everywhere
+- One breach → every account you own is at risk
 
-**Credential stuffing:** email+password leaks on one site → bots automatically try them on Gmail, Instagram, banking.
+**How it works — credential stuffing:** a site leaks your email + password → bots automatically try it on Gmail, Instagram, your bank.
 
-> 1 password = 1 key for every door
+> One password is a master key to every door you own.
 
 ## Notes
-Show HaveIBeenPwned open (don't search yet). Explain the 2012 LinkedIn breach is still used today. 14+ billion accounts in HIBP.
+Open haveibeenpwned.com but don't search yet. Mention the 2012 LinkedIn breach — those passwords are still being tried today. HIBP now has 14+ billion breached accounts.
 
 ---
 
-# What makes a *strong* password?
+# What makes a password *strong*?
 
-### Length > Complexity
+### Go long, not clever
 
-- **Bad:** `P@ssw0rd!` — 8 chars, predictable
-- **Good:** `correct horse battery staple` — 4 words, 28 chars
-- **Great:** `k9$Lp-27q-VALE-blue-thunder-482` — generated
+- **Weak:** `P@ssw0rd!` — 8 characters, completely predictable
+- **Strong:** `correct horse battery staple` — 4 random words, 28 characters
+- **Ideal:** `k9$Lp-27q-VALE-blue-thunder-482` — randomly generated
 
-**Golden rule:** Long (14-16+) • Unique • Random
+**The golden rule:** Long (14–16+ characters) • Unique for every site • Truly random
 
-> If you can remember it, it's weak. Let the manager remember it.
+> If you can remember it, it's too weak. Let your manager remember it for you.
 
 ## Notes
-Simple entropy: each extra character multiplies exponentially. Show Bitwarden generator. Diceware passphrase for the master password.
+Explain entropy simply: each extra character makes it exponentially harder to guess. Live demo the Bitwarden generator. Mention Diceware for your one master passphrase — four random words you *can* remember.
 
 ---
 
-# Password Managers
+# Password managers
 ## Your encrypted vault
 
-Encrypted vault → only opens with your **Master Password**
+Think of it as a safe that only opens with your **master passphrase**.
 
-You memorize **1** passphrase. It creates the other 200.
+You memorize **one** strong passphrase. It remembers the other 200 for you.
 
-**Recommended:**
+**Our top picks (all zero-knowledge):**
 - **Bitwarden** — [bitwarden.com](https://bitwarden.com)
 - **Proton Pass** — [proton.me/pass](https://proton.me/pass)
 - **1Password** — [1password.com](https://1password.com)
 
-> Zero-knowledge: nobody can see your passwords
+> Zero-knowledge means not even they can see your passwords.
 
 ## Notes
-Analogy: vault vs keys under the doormat. Demo creating a Bitwarden account, generating 20 chars, autofill. Warning: saving in the browser without a master password isn't secure.
+Use the safe vs. "key under the doormat" analogy. Live demo: create a Bitwarden account, generate a 20-character password, show autofill. Warn: saving passwords in your browser without a master password isn't safe.
 
 ---
 
-# DEMO — Switch to a manager in 3 steps
+# Demo — switch to a manager in 3 steps
 
-1. **Install** Bitwarden (app + extension) + master passphrase
-2. **Import** from Chrome/Firefox (2 clicks)
-3. **Change** the top 5: Email → Bank → Instagram → Google/Apple → Finance
+1. **Install** Bitwarden (app + browser extension) and set your master passphrase
+2. **Import** everything from Chrome / Firefox — it's two clicks
+3. **Fix the top 5 first:** Email → Bank → Instagram → Google/Apple → Finance
 
-**Tip:** Enable 2FA on Bitwarden itself.
+**Pro tip:** Turn on 2FA inside Bitwarden itself.
 
-> 5 minutes over lunch and you're 80% done
+> Do this over lunch — five minutes and you're 80% there.
 
 ## Notes
-Live import demo or screenshots. Prioritize the top 5. Show the "Reused/Exposed" report in Bitwarden.
+Show the import live or with screenshots. Tell them not to boil the ocean — just fix the five accounts that would hurt most if hacked. Show Bitwarden's "Reused" and "Exposed" reports.
 
 ---
 
-# Passkeys — The passwordless future
+# Passkeys — the future without passwords
 
-Site keeps the **lock** (public key). Your phone keeps the **key** (private key).
+The site keeps the **lock** (public key). Your phone keeps the **key** (private key).
 
-Unlock with Face ID / PIN.
+You unlock with Face ID, fingerprint, or your PIN.
 
-- ✅ Phishing-proof
-- ✅ Nothing to steal
-- ✅ Faster
+- ✅ Phishing-proof by design
+- ✅ Nothing to steal from the server
+- ✅ Faster than typing a password
 
-→ [passkeys.directory](https://passkeys.directory)
+→ See what's ready: [passkeys.directory](https://passkeys.directory)
 
 ## Notes
-Lock/key analogy. Demo creating a passkey at myaccount.google.com → Security → Passkeys. Stored in iCloud/Google Password Manager. Keep the manager as fallback.
+Lock-and-key analogy works well here. Demo: myaccount.google.com → Security → Passkeys → Create. It lives in iCloud Keychain / Google Password Manager. Keep your password manager as a backup for sites that don't support passkeys yet.
 
 ---
 
-# Passkeys vs Passwords
+# Passkeys vs. passwords
 
-**Passwords (old):**
-- You create them — guessable
-- Reused — leak everywhere
+**Passwords (the old way):**
+- You make them up — so they're guessable
+- You reuse them — so one leak exposes everything
 - Phishing works
-- Need separate 2FA
+- You need 2FA as an extra step
 
-**Passkeys (new):**
-- Device-generated — unique per site
-- Nothing to steal on the server
-- Phishing fails (domain doesn't match)
-- Already 2 factors (possession + biometrics)
+**Passkeys (the new way):**
+- Your device creates them — unique for every site
+- Nothing valuable sits on the server
+- Phishing fails (the domain has to match)
+- They're already two factors (something you have + something you are)
 
-**Best practice in 2026:** passkey where you can, manager for the rest.
+**The move in 2026:** use a passkey wherever you can, password manager everywhere else.
 
 ## Notes
-Contrast without a table. Reinforce that it's a complementary transition. Show [passkeys.directory](https://passkeys.directory). Encourage trying it today on Google/Apple ID.
+No need for a table — just contrast. Emphasize they're complementary, not competing. Show passkeys.directory and nudge them to try it today on their Google or Apple ID.
 
 ---
 
-# Have you been exposed? Let's check now.
+# Have you been breached? Let's find out.
 
 ## [haveibeenpwned.com](https://haveibeenpwned.com)
 
-1. Enter your email
-2. 🟢 Green = safe (for now)
-3. 🔴 Red = you were in a breach → see where/what leaked
+1. Type in your email
+2. 🟢 Green = you're clear — for now
+3. 🔴 Red = you've been in a breach → see where and what leaked
 
-**If red:**
-- Change the password on that site + anywhere you reused it
-- Enable 2FA → click **Notify me**
+**If it's red:**
+- Change that password *and* everywhere you reused it
+- Turn on 2FA → click **Notify me** so you'll know next time
 
-> Live demo — volunteer without showing on screen
+> Live demo — we'll use a test address so no one has to share theirs.
 
 ## Notes
-CRITICAL DEMO with a test email. Troy Hunt, no spam. Show Pwned Passwords. QR in the corner so they can follow along.
+This is the big live demo. Use a test email you know is breached. Explain who Troy Hunt is and that the site doesn't spam. Show "Pwned Passwords" too. Point to the QR in the corner so people can follow on their phones.
 
 ---
 
-# 2FA is mandatory + AI phishing
+# 2FA is non-negotiable — and phishing just got scary good
 
-**Enable now on 5:** Email • Bank • Apple/Google • Instagram/TikTok • Finance
+**Turn it on today for these 5:** Email • Bank • Apple/Google • Instagram/TikTok • Finance
 
-**Ranking:** Passkey > Authenticator app (Ente/Aegis/Proton/2FAS) > SMS
+**What to use, best to worst:** Passkey > Authenticator app (Ente / Aegis / Proton / 2FAS) > SMS
 
-**Phishing in 2026:** flawless emails/SMS, cloned voices, pixel-perfect sites.
+**Phishing in 2026:** flawless emails and texts, cloned voices, pixel-perfect fake sites.
 
-**Rule:** Never click a login link from email/SMS. Go directly to the site.
+**The rule:** Never tap a login link from an email or text. Go to the site yourself and log in.
 
-> 2FA is the seatbelt when the password fails
+> 2FA is the seatbelt for when your password fails.
 
 ## Notes
-Show TOTP QR. SMS is weak (SIM swap). Compare old vs AI phishing side by side. Passkeys solve phishing.
+Show a TOTP code spinning. Explain SMS is weak because of SIM swapping. Put an old-school phishing email next to an AI-generated one — indistinguishable now. Passkeys are the real fix for phishing.
 
 ---
 
 # PART B — PRIVACY
 ## Taking back control
 
-> "Nothing to hide" ≠ "Nothing to protect"
+> "I have nothing to hide" is not the same as "I have nothing to protect."
 
-Privacy is **choice**: what you share, with whom, when.
+Privacy is **choice** — what you share, with whom, and when.
 
 ## Notes
-Myth that privacy is only for criminals. Let's close the windows left wide open by default.
+Reframe the myth: privacy isn't about having something to hide, it's about closing windows that are open by default. This section is about quietly taking that control back.
 
 ---
 
-# Myth: "Incognito Mode protects me"
+# Myth: "Incognito Mode makes me private"
 
-**What it DOES:**
-- Clears history/cookies locally when you close
-- Good for lending your laptop
+**What it *does* do:**
+- Wipes history and cookies *on that device* when you close the window
+- Handy if you're lending someone your laptop
 
-**What it DOESN'T:**
-- Doesn't hide your IP (ISP/boss can see)
-- Doesn't block Google/Facebook tracking
-- Not a VPN, not anonymity
+**What it *doesn't* do:**
+- It doesn't hide your IP — your ISP and your boss can still see where you went
+- It doesn't stop Google or Facebook from tracking you
+- It's not a VPN, and it's not anonymity
 
-> You wipe footprints at home, but street cameras still record.
+> Incognito wipes footprints off your floor, but the street cameras are still rolling.
 
 ## Notes
-Show Chrome's incognito warning. Ask who uses it for privacy. Use humor to demystify.
+Show Chrome's actual Incognito disclaimer — most people have never read it. Ask who uses it to be "private" — a little humor lands well here.
 
 ---
 
-# Why do you see cookie banners?
+# So why all the cookie banners?
 
-## EU Cookie Law (GDPR + ePrivacy)
+## The EU Cookie Law (GDPR + ePrivacy)
 
-- In the EU, tracking requires **consent**
-- **Accept all** = green light for 100+ trackers
-- **Reject / Necessary only** = essentials only
+- In the EU, tracking needs your **consent**
+- **Accept all** = you just green-lit 100+ trackers
+- **Reject / Necessary only** = you get the site without the surveillance
 
-**Tip:** Be annoying, always click Reject. Use **Consent-O-Matic**.
+**Make it a habit:** Always hit Reject. If you're tired of clicking, use **Consent-O-Matic**.
 
 ## Notes
-Show a real banner → Manage → 100 partners = shock. Essentials vs marketing. You have the right to reject without losing access.
+Show a real banner → "Manage preferences" → 100+ "partners" — that shock value sticks. Explain "necessary" vs "marketing." Remind them they can say no and still use the site.
 
 ---
 
-# Do Not Track and Global Privacy Control
+# Do Not Track vs. Global Privacy Control
 
-- **DNT (2009):** "please don't track me" → **nobody honored it**
-- **GPC (2020+):** successor with **legal teeth** (CA + EU/GDPR)
+- **DNT (2009):** "Please don't track me" → **everyone ignored it**
+- **GPC (2020+):** the successor with **actual legal weight** (California + EU/GDPR)
 
-Enable GPC: Brave has it on by default • Firefox → Privacy → GPC
+How to turn on GPC: Brave has it on by default • Firefox → Settings → Privacy → turn on GPC
 
-> DNT is dead. GPC has teeth.
+> DNT is dead. GPC actually has teeth.
 
 → [globalprivacycontrol.org](https://globalprivacycontrol.org)
 
 ## Notes
-Optional DNT failed. GPC backed by EFF, enforceable. Demo in Brave.
+DNT failed because it was voluntary. GPC is backed by the EFF and is enforceable. Quick demo in Brave's settings.
 
 ---
 
-# Is your phone tracking you?
+# Is your phone tracking you across apps?
 
-## Ad Tracking IDs — turn off in 30s
+## Ad tracking IDs — switch them off in 30 seconds
 
-- **iPhone (IDFA):** Settings → Privacy → Tracking → turn off "Allow Apps to Request to Track"
-- **Android (GAID):** Settings → Privacy → Ads → Delete ID + turn off personalization
+- **iPhone (IDFA):** Settings → Privacy & Security → Tracking → turn off "Allow Apps to Request to Track"
+- **Android (GAID):** Settings → Privacy → Ads → Delete advertising ID + turn off ad personalization
 
-> Do it now on your phone
+> Do this right now, on your phone.
 
 ## Notes
-Interactive DEMO. Side-by-side screenshots. Doesn't remove ads, but stops cross-app profiling. ATT cut tracking by 60%+.
+Live, interactive demo. Show side-by-side screenshots. Be clear: this doesn't remove ads, it stops apps from building one profile about you across every app. Apple's ATT cut cross-app tracking by over 60%.
 
 ---
 
-# What is DNS?
+# Wait — what *is* DNS?
 
-You type `google.com` → DNS translates to `142.250.180.14`
+You type `google.com` → DNS translates it to `142.250.180.14`
 
-If you control DNS, you **block malware/ads before they load**.
+If you control DNS, you **block malware and ads before they even load**.
 
-> **Building doorman.** For the whole house, set it on the **router** — every device protected with nothing to install per device.
+> Think of it as the **building's doorman.** Set it once on your **router** and every device in the house is protected — no app to install on each phone, TV, or laptop.
 
 ## Notes
-Phonebook analogy. Diagram Device → DNS → Internet. Lightweight, fast, works on smart TV. Not a VPN, it's complementary.
+Phone book analogy for DNS. Sketch: Device → DNS → Internet. Emphasize it's lightweight, fast, works on smart TVs. It's not a VPN — it's the perfect complement to one.
 
 ---
 
-# DNS Filtering — 3 doormen
+# DNS filtering — pick your doorman
 
 **1. Cloudflare Families** — [one.one.one.one/family](https://one.one.one.one/family)
-- `1.1.1.2` malware • `1.1.1.3` malware+adult
+- `1.1.1.2` blocks malware • `1.1.1.3` blocks malware + adult content
 
 **2. DNS4EU** — [joindns4.eu](https://www.joindns4.eu)
-- EU, GDPR, no logs, `86.54.11.13`
+- EU-run, GDPR-friendly, no logs — `86.54.11.13`
 
 **3. NextDNS** — [my.nextdns.io](https://my.nextdns.io)
-- Customizable, 300k/month free, per device
+- Fully customizable, 300k queries/month free, per-device profiles
 
 ## Notes
-Compare in 3 short bullets. Show changing DNS on iPhone/Android and on the router (whole house). Recommend NextDNS for full control.
+Keep it to three short options. Show how to change DNS on iPhone/Android and, more importantly, on the router so the whole house is covered. Recommend NextDNS if they want the most control.
 
 ---
 
-# DEMO — NextDNS in 2 minutes
+# Demo — NextDNS in 2 minutes
 
-1. Go to **[my.nextdns.io](https://my.nextdns.io)** → free account
-2. Lists: NextDNS Ads & Trackers + StevenBlack
+1. Go to **[my.nextdns.io](https://my.nextdns.io)** → create a free account
+2. Enable blocklists: NextDNS Ads & Trackers + StevenBlack
 3. Turn on **Native Tracking Protection**
-4. Install profile (iOS) / app (Android) / router
+4. Install the profile (iOS) / app (Android) / or set it on your router
 
-See in real time: blocks, % trackers, per device
+Then watch the live log: what got blocked, what percentage is tracking, broken down by device.
 
 ## Notes
-Demo dashboard with graph. Before/after on an ad-heavy site. Free tier covers 2-3 people. Pi-hole for nerds.
+Show the dashboard graph. Do a before/after on an ad-heavy news site. Free tier is enough for 2–3 people. Mention Pi-hole for the tinkerers.
 
 ---
 
-# Ad-blocking — Not aesthetics, it's privacy
+# Ad blockers — it's not about looks, it's about privacy
 
-Ads = **trackers** across sites.
+Ads *are* trackers that follow you from site to site.
 
-Blocking = faster, more battery, less malware.
+Blocking them means faster pages, better battery, and less malware.
 
-> Next: the 3 tools that matter
+> Up next: the 3 tools that actually matter.
 
 ## Notes
-Example news site 3s vs 10s, 50 trackers vs 2. Transition.
+Show a news site loading in 3 sec vs 10 sec, 50 trackers vs 2. This sets up the next two slides.
 
 ---
 
 # uBlock Origin + Privacy Badger
 
 **uBlock Origin — for everyone** — [ublockorigin.com](https://ublockorigin.com)
-- Install and forget. Lightweight, 90% blocked.
+- Install it and forget it. Lightweight, blocks ~90% out of the box.
 
 **Privacy Badger (EFF)** — [privacybadger.org](https://privacybadger.org)
-- Learns on its own, blocks whoever tracks you on 3+ sites.
+- Learns as you browse — if it sees the same tracker on 3+ sites, it blocks it.
 
-> Start with uBlock. Enough for 90% of people.
+> Start with uBlock Origin. That's enough for 90% of people.
 
 ## Notes
-Show Chrome/Firefox install. Don't use 5 ad-blockers at once. For beginners, this is enough.
+Show how to install in Chrome/Firefox. Warn them not to run five ad blockers at once — they'll fight each other. For beginners, this combo is the sweet spot.
 
 ---
 
-# nuMatrix — For the curious
+# nuMatrix — for the curious
 
-**Fork of uMatrix** — [codeberg.org/arek/nuMatrix](https://codeberg.org/arek/nuMatrix)
+**A modern fork of uMatrix** — [codeberg.org/arek/nuMatrix](https://codeberg.org/arek/nuMatrix)
 
-- Matrix per domain: JS, cookies, XHR, media
-- Surgical control over what each site loads
-- Steeper learning curve, may break sites at first
+- A grid: which domains can run JS, set cookies, make XHR, load media
+- Surgical control over what each site is allowed to do
+- Steeper learning curve — expect sites to break at first
 
-> Power users: try it after you've mastered uBlock
+> For power users: try this *after* you're comfortable with uBlock Origin.
 
 ## Notes
-Screenshot of the matrix. For those who want to understand everything. Warning that it breaks sites until you learn. Separated from previous slide to not overwhelm beginners.
+Show a screenshot of the matrix. Explain it's for people who want to see everything. Warn that it'll break sites until you learn it. That's why it's on its own slide — so beginners don't feel overwhelmed.
 
 ---
 
-# Email Aliasing — Hide the real one
+# Email aliasing — hide your real address
 
-### Part 1: Tricks (organization, not privacy)
+### Part 1: Tricks (handy for organizing, not for privacy)
 
-- **Gmail ignores dots:** `joao.silva@gmail.com` = `joaosilva@gmail.com`
-- **Gmail `+`:** `joao+shop@gmail.com` → filterable, but easy to strip
-- **Outlook:** `+` + **real aliases** ([outlook.live.com](https://outlook.live.com) → up to 10)
+- **Gmail ignores dots:** `joao.silva@gmail.com` is the same as `joaosilva@gmail.com`
+- **Gmail `+` trick:** `joao+shop@gmail.com` → easy to filter, but trivial to strip out
+- **Outlook:** `+` plus **real aliases** ([outlook.live.com](https://outlook.live.com) → up to 10)
 
-> Useful for organizing, **doesn't hide** — dots/+ stripped in a second
+> Great for organizing, **useless for privacy** — anyone can remove the dot or `+` in a second.
 
 ## Notes
-Demo `joao+test` creates a filter. Outlook real alias. Explain it's trivial to clean, not privacy.
+Live demo: send to `joao+test@gmail.com` and show the filter it creates. Show Outlook's real alias screen. Make the point: this is convenient, but it's not hiding you.
 
 ---
 
-# Email Aliasing — Real privacy
+# Email aliasing — real privacy
 
 ### Part 2: Random aliases
 
-Instead of `joao@gmail.com` → `joao.shop.8f3k@random.simplelogin.com`
+Instead of `joao@gmail.com`, you give out `joao.shop.8f3k@random.simplelogin.com`
 
-- Spam? **Turn off the alias** (1 click)
-- Breach? You know **who sold** your data
-- Reply without revealing the real address
+- Spam? **Kill the alias** with one click
+- Breach? You instantly know **who sold your address**
+- You can still reply without ever revealing your real email
 
 **Use:** [simplelogin.io](https://simplelogin.io) • [addy.io](https://addy.io) • iCloud Hide My Email • Firefox Relay
 
-> Gmail/Outlook to organize. SimpleLogin/Addy for privacy.
+> Gmail/Outlook for organizing. SimpleLogin/Addy for actual privacy.
 
 ## Notes
-Demo creating an alias in SimpleLogin/Proton Pass. One alias per service = digital hygiene. Link to manager = disposable identity per site.
+Demo creating an alias in SimpleLogin or Proton Pass. One alias per service is digital hygiene — if one leaks, you just burn that alias. Pair it with your password manager and you get a disposable identity per site.
 
 ---
 
-# VPN — Encrypted tunnel, not an invisibility cloak
+# VPN — an encrypted tunnel, not an invisibility cloak
 
-**What it DOES:**
-- Encrypts to the VPN server — hides IP from Wi-Fi/ISP/boss
-- Useful on public Wi-Fi, censorship, geo-blocks
+**What it *does* do:**
+- Encrypts everything to the VPN server — hides your IP from the coffee-shop Wi-Fi, your ISP, your employer
+- Useful on public Wi-Fi, to get around censorship, or for geo-blocked content
 
-**What it DOESN'T:**
-- Doesn't block trackers/cookies
-- Not anonymous while logged into Google
-- Doesn't protect from malware
+**What it *doesn't* do:**
+- It doesn't block trackers or cookies
+- It doesn't make you anonymous if you're logged into Google
+- It doesn't protect you from malware
 
-> For daily use, **NextDNS + uBlock** already give you 80%
+> For everyday life, **NextDNS + uBlock Origin** already get you 80% of the way there.
 
 ## Notes
-Analogy: armored truck to the central post office, then it goes open. Not total privacy, it's transport. Show when to use it.
+Analogy: it's an armored truck to the central post office — after that, your mail goes out normally. It's transport protection, not total privacy. Be clear about when it actually helps.
 
 ---
 
-# VPN — The free trap and how to choose
+# VPNs — the free trap and how to pick a good one
 
-**⚠️ Free = you are the product**
-SuperVPN, TurboVPN, GeckoVPN (100M+) — sold logs, leaked data.
+**⚠️ If it's free, *you're* the product**
+SuperVPN, TurboVPN, GeckoVPN (100M+ installs each) — all caught selling logs and leaking data.
 
-**How to choose (audited, WireGuard, RAM-only):**
-- **Mullvad** — [mullvad.net](https://mullvad.net) (5€/month, no email needed)
-- **Proton VPN** — [protonvpn.com](https://protonvpn.com) (honest free tier)
+**How to choose (look for: audited, WireGuard, RAM-only servers):**
+- **Mullvad** — [mullvad.net](https://mullvad.net) (€5/month, no email required)
+- **Proton VPN** — [protonvpn.com](https://protonvpn.com) (the one honest free plan)
 - **IVPN** — [ivpn.net](https://www.ivpn.net)
 
-> If it's free and it's not Proton, be suspicious.
+> If it's free and it's not Proton, assume you're paying with your data.
 
 ## Notes
-Strong warning: worse than no VPN. Many free ones are owned by the same Chinese company. If you can only use free, Proton Free is the only trustworthy one.
+Be blunt: a bad VPN is worse than no VPN. Many of the free ones are owned by the same handful of Chinese companies. If you can only use free, Proton Free is the only one I'd trust.
 
 ---
 
-# Dirty links — clean tracking before sharing
+# Messy links — clean tracking before you share
 
-- Links come dirty: `?utm_source=...&fbclid=...&igsh=...` that identify who clicked/shared
-- Instagram `igsh` and Facebook `fbclid` enable **doxing** — recipient can trace who shared it
-- **Rule:** share only `https://site.com/page` — delete everything after `?`
+- Links often come dirty: `?utm_source=...&fbclid=...&igsh=...` — they identify who clicked and who shared
+- Instagram's `igsh` and Facebook's `fbclid` can actually **doxx** you — anyone with the link can trace it back to the person who shared it
+- **The rule:** only share `https://site.com/page` — delete everything after the `?`
 
-**Tools:**
-- **Android:** [altsea.app](https://altsea.app) — paste link → copy clean
-- **Desktop:** [Tracking Token Stripper](https://github.com/jparise/chrome-utm-stripper) — auto-removes on copy
+**Tools to clean them:**
+- **Android:** [altsea.app](https://altsea.app) — paste the link, copy the clean version
+- **Desktop:** [Tracking Token Stripper](https://github.com/jparise/chrome-utm-stripper) — strips it automatically when you copy
 
-> Sharing a dirty link = sharing your trail
+> Sharing a messy link is sharing your trail.
 
 ## Notes
-LIVE DEMO: copy an Instagram link with `?igsh=` → paste into altsea.app → show clean link. Explain doxing: `igsh` traces back to the sharer's profile. UTM isn't essential — site loads fine without `?utm_...`. Show Tracking Token Stripper cleaning on desktop when you copy.
+Live demo: copy an Instagram link with `?igsh=` → paste into altsea.app → show the clean link. Explain the doxxing risk: that `igsh` token can lead back to the sharer's profile. UTM params aren't needed — the page loads fine without `?utm_...`. Show Tracking Token Stripper cleaning it on desktop as you copy.
 
 ---
 
-# Your Action Plan — TODAY (5 steps)
+# Your action plan — do this TODAY (5 steps)
 
-1. ✅ Manager (Bitwarden) + import + change email/bank
-2. ✅ First passkey (Google/Apple)
-3. ✅ [haveibeenpwned.com](https://haveibeenpwned.com) + Notify me
-4. ✅ Phone: disable tracking + NextDNS/1.1.1.3 DNS
-5. ✅ Browser: [ublockorigin.com](https://ublockorigin.com)
+1. ✅ Password manager (Bitwarden) → import → fix email + banking first
+2. ✅ Create your first passkey (Google/Apple)
+3. ✅ Check [haveibeenpwned.com](https://haveibeenpwned.com) → click Notify me
+4. ✅ Phone: turn off ad tracking + set DNS to NextDNS / 1.1.1.3
+5. ✅ Browser: install [ublockorigin.com](https://ublockorigin.com)
 
-> Photo this slide. 30 min tonight.
+> Snap a photo of this slide. Give yourself 30 minutes tonight.
 
 ## Notes
-Most important slide, leave 2 min. Photo. 1+2+3 = 80% of the gain.
+The most important slide — leave it up for a full two minutes. Tell them to take a photo. Steps 1+2+3 alone get them 80% of the benefit.
 
 ---
 
-# Resources — Save this slide (1/2)
+# Resources — save this slide (1/2)
 
 **Accounts & Passwords**
 - [haveibeenpwned.com](https://haveibeenpwned.com)
@@ -459,11 +459,11 @@ Most important slide, leave 2 min. Photo. 1+2+3 = 80% of the gain.
 - [ublockorigin.com](https://ublockorigin.com)
 
 ## Notes
-First half of links. Say the PDF has everything clickable. Second half on next slide.
+First half of the links. Tell them the PDF has everything clickable. The second half is on the next slide.
 
 ---
 
-# Resources — Save this slide (2/2)
+# Resources — save this slide (2/2)
 
 **Email & VPN**
 - [simplelogin.io](https://simplelogin.io) • [addy.io](https://addy.io)
@@ -476,24 +476,24 @@ First half of links. Say the PDF has everything clickable. Second half on next s
 - [Tracking Token Stripper](https://github.com/jparise/chrome-utm-stripper)
 - support.google.com/mail/answer/5238509
 
-> PDF with all links will be shared
+> The PDF with all links will be shared.
 
 ## Notes
-Second half. Linktree/Notion with everything. Mention phase 2 videos.
+Second half. Mention you'll share a Linktree/Notion page with everything. Tease the Phase 2 videos.
 
 ---
 
 # QR Codes — Passwords & Accounts
 
 ## Notes
-Give 30s to photograph. Starter kit for passwords. HaveIBeenPwned is urgent.
+Give them 30 seconds to snap photos. This is the starter kit for passwords. Emphasize HaveIBeenPwned as the urgent one.
 
 ---
 
 # QR Codes — Privacy & Protection
 
 ## Notes
-Second batch. NextDNS has the biggest impact. uBlock on laptop. SimpleLogin for alias.
+Second batch. Call out NextDNS as the highest-impact one. uBlock Origin for the laptop, SimpleLogin for aliases.
 
 ---
 
@@ -502,7 +502,7 @@ Second batch. NextDNS has the biggest impact. uBlock on laptop. SimpleLogin for 
 
 ### Security is a marathon, not a sprint.
 
-Start with 1 step today.
+Start with one step today.
 
 ## Notes
-Wrap up, Q&A. If time, VPN vs DNS or Brave vs Firefox.
+Wrap up, invite Q&A. If there's extra time, riff on VPN vs DNS or Brave vs Firefox.
