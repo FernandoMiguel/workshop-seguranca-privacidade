@@ -58,13 +58,12 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
 *   [x] **nuMatrix + uBlock Origin** -> ambos incluídos (nuMatrix avançado, uBlock simples)
 
 ## 5. Entregáveis e Traduções
-*   [x] Slide-deck master em PT-PT — **FINAL v7.2 criado no Google Slides (32 slides, Geometric, com speaker notes + QR Codes) — preserva edições**
+*   [x] Slide-deck master em PT-PT — criado no Google Slides (33 slides, Geometric, com speaker notes + QR Codes) — preserva edições
     *   ID: `1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI` (mesmo deck, atualizado in-place)
     *   Link: https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk (testa em anónima, já com Geometric)
-    *   Ficheiro fonte: `slides-ptpt.md` (32 slides, com `[display](https://url)` hyperlinks)
-    *   Correções v7.2 (tema Geometric): master já era `Geometric` (`g3f8ad842be2_1_1073`) mas slides usavam layout `Blank` (`g3f8ad842be2_1_1147`) sem shapes — por isso vias “Simples” em anónima. Adicionado `geom_rect_blank` (RECTANGLE 720x12 PT, ACCENT1) ao layout Blank via `presentations.batchUpdate` — todos os 32 slides Blank herdaram a barra superior Geometric sem recriar e sem perder as tuas edições/panda/QRs/hyperlinks. 2 demos `gogSlide...` no fim removidos (duplicados). Verifica em anónima: topo azul-escuro em todos.
+    *   Ficheiro fonte: `slides-ptpt.md` (33 slides, com `[display](https://url)` hyperlinks)
+    *   Correções (tema Geometric): master já era `Geometric` (`g3f8ad842be2_1_1073`) mas slides usavam layout `Blank` (`g3f8ad842be2_1_1147`) sem shapes — por isso vias “Simples” em anónima. Adicionado `geom_rect_blank` (RECTANGLE 720x12 PT, ACCENT1) ao layout Blank via `presentations.batchUpdate` — todos os slides herdaram a barra superior Geometric sem recriar e sem perder as tuas edições/panda/QRs/hyperlinks. 2 demos `gogSlide...` no fim removidos (duplicados). Verifica em anónima: topo azul-escuro em todos.
     *   Assets QR: `workshop/assets/qr-grid-passwords.png` (1398x364, 5 QRs), `qr-grid-privacidade.png` (1494x334, 6 QRs single-row), `qr-grid-todos.png` (handout) + 12 PNGs individuais
-    *   v7.1 já tinha 1Password reposto + hyperlinks curtos clicáveis
 *   [x] Notas do orador (speaker notes) detalhadas por slide — JÁ INCLUÍDAS e embebidas no Google Slides
 *   [ ] Versão traduzida EN-US (adaptação, não só tradução literal) - APÓS validação PT-PT
 *   [ ] Vídeo Long-Form (15-20 min resumo do workshop) - roteiro - FASE 2
@@ -74,13 +73,13 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
 ## 6. Próximos Passos
 1.  [x] Estrutura validada (75-80 min, iniciantes) — expandido com VPN + aliasing + QRs
 2.  [x] Plataforma: Google Slides via gog (primário) + Gamma — Gamma descartado (limite 24 slides), mantido gslides com Geometric
-3.  [x] Deck completo PT-PT com notas -> criado no Google Slides (FINAL v7.2, 32 slides, Geometric via Blank+barra, com QRs canto + dedicados, sem overflow)
+3.  [x] Deck completo PT-PT com notas -> criado no Google Slides (33 slides, Geometric via Blank+barra, com QRs canto + dedicados, sem overflow)
 4.  [ ] Revisão final contigo (testa anónima, já deve ver Geometric)
 5.  [ ] Tradução EN-US (após OK)
 6.  [ ] Roteiros vídeo long + shorts (fase 2)
 
 ## 7. Links e Ficheiros
-*   **Google Slides (PT-PT):** https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk (32 slides, Geometric via Blank+barra, com QRs canto + grids single-row) — testa em anónima, já com barra ACCENT1 no topo
+*   **Google Slides (PT-PT):** https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk (33 slides, Geometric via Blank+barra, com QRs canto + grids single-row) — testa em anónima, já com barra ACCENT1 no topo
 *   **Ficheiro fonte:** `workshop/slides-ptpt.md` (editável, com `[display](https://url)` hyperlinks)
 *   **Assets QR:** `workshop/assets/qr-grid-passwords.png` (1398x364, 5 QRs), `qr-grid-privacidade.png` (1494x334, 6 QRs single-row), `qr-grid-todos.png` + 12 PNGs individuais
 *   **Gamma:** descartado (limite 24). Mantido gslides com Geometric (master `Geometric` + barra no Blank layout `g3f8ad842be2_1_1147` via `geom_rect_blank`)

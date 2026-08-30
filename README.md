@@ -3,7 +3,7 @@
 > Workshop prático de 75 min para iniciantes — Passwords • Passkeys • Privacidade • DNS • Ad-blocking
 
 **Autor:** Fernando 🐼 — Setembro 2026  
-**Slides:** [Google Slides (FINAL v7.3, 33 slides, Geometric)](https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk)
+**Slides:** [Google Slides (33 slides, Geometric)](https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk)
 
 ## Estrutura
 
@@ -34,7 +34,7 @@
 
 - ID: `1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI`
 - Tema: Geometric (master `g3f8ad842be2_1_1073` + barra ACCENT1 no layout Blank via API)
-- Deck: 33 slides (v7.3) — https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk
+- Deck: 33 slides — https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk
 
 ## Licença
 
