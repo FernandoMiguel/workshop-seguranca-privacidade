@@ -4,7 +4,7 @@
 Workshop 75 min para iniciantes: Segurança e Privacidade Online (Passwords, Passkeys, DNS, VPN, Ad-blocking). Não é projeto de código — sem build/test/lint. Artefacto é o deck de slides + plano.
 
 - Repo: `FernandoMiguel/workshop-seguranca-privacidade` (public, branch `main`)
-- Idioma principal: PT-PT (`slides-ptpt.md`); PT-BR e EN-US são adaptações futuras
+- Idioma principal: PT-PT (`slides-ptpt.md`); EN (`slides-en.md`) é adaptação
 - Licença: educativo, reutilização com atribuição
 
 ## Structure

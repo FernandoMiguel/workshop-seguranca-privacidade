@@ -1,7 +1,7 @@
 # Workshop: Segurança e Privacidade Online - Plano
 
 **Data:** Semana de 1 de Setembro 2026
-**Idiomas:** PT-PT, PT-BR, EN-US
+**Idiomas:** PT-PT, EN-US
 **Formatos previstos:** Slide-deck (ao vivo) + Vídeo long-form + Reels/TikToks short-form (com voz clonada)
 
 ## 1. Objetivo do Workshop
@@ -66,7 +66,7 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
     *   Assets QR: `workshop/assets/qr-grid-passwords.png` (1398x364, 5 QRs), `qr-grid-privacidade.png` (1494x334, 6 QRs single-row), `qr-grid-todos.png` (handout) + 12 PNGs individuais
     *   v7.1 já tinha 1Password reposto + hyperlinks curtos clicáveis
 *   [x] Notas do orador (speaker notes) detalhadas por slide — JÁ INCLUÍDAS e embebidas no Google Slides
-*   [ ] Versões traduzidas PT-BR e EN-US (adaptação, não só tradução literal) - APÓS validação PT-PT
+*   [ ] Versão traduzida EN-US (adaptação, não só tradução literal) - APÓS validação PT-PT
 *   [ ] Vídeo Long-Form (15-20 min resumo do workshop) - roteiro - FASE 2
 *   [ ] 3-5 Shorts/Reels (45-60s cada) - ex: "Passkeys em 60s", "Desativa o tracking no iPhone agora" - FASE 2
 *   [ ] Voz clonada: 2-3 min de áudio teu limpo para clonar (ElevenLabs) - FASE 2, após slides prontos
@@ -76,7 +76,7 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
 2.  [x] Plataforma: Google Slides via gog (primário) + Gamma — Gamma descartado (limite 24 slides), mantido gslides com Geometric
 3.  [x] Deck completo PT-PT com notas -> criado no Google Slides (FINAL v7.2, 32 slides, Geometric via Blank+barra, com QRs canto + dedicados, sem overflow)
 4.  [ ] Revisão final contigo (testa anónima, já deve ver Geometric)
-5.  [ ] Traduções PT-BR e EN-US (após OK)
+5.  [ ] Tradução EN-US (após OK)
 6.  [ ] Roteiros vídeo long + shorts (fase 2)
 
 ## 7. Links e Ficheiros
