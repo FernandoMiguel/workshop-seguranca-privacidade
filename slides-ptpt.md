@@ -13,13 +13,14 @@ Bem-vindo! 75 min sem jargão, tudo gratuito e fazes hoje. Interrompe e pergunta
 
 # O que vais levar daqui hoje
 
-## 6 super-poderes em 80 min
+## 7 super-poderes em 80 min
 
 - 🔐 Passwords à prova de hackers
 - 🔑 Passkeys — adeus passwords
 - 🕵️ Saber se já foste hackeado
 - 📵 Travar tracking no telemóvel
 - 🛡️ Bloquear ads/malware no DNS
+- 🧹 Limpar tracking dos links (evitar doxing)
 - 🔒 VPN — quando usar (e quando é cilada)
 
 > Traz o telemóvel — vamos fazer ao vivo
@@ -408,6 +409,23 @@ Alerta forte: pior que sem VPN. Muitas grátis são da mesma empresa chinesa. Se
 
 ---
 
+# Links sujos — limpa o tracking antes de partilhar
+
+- Links vêm sujos: `?utm_source=...&fbclid=...&igsh=...` que identificam quem clicou/partilhou
+- Instagram `igsh` e Facebook `fbclid` fazem **doxing** — quem recebe vê de quem veio
+- **Regra:** partilha só `https://site.com/pagina` — apaga tudo depois de `?`
+
+**Ferramentas:**
+- **Android:** [altsea.app](https://altsea.app) — cola o link → copia limpo
+- **Desktop:** [Chrome UTM Stripper](https://github.com/jparise/chrome-utm-stripper) — remove auto ao copiar
+
+> Partilhar link sujo = partilhar o teu rasto
+
+## Notes
+DEMO ao vivo: copia link Instagram com `?igsh=` → cola em altsea.app → mostra link limpo. Explica doxing: `igsh` devolve ao perfil de quem partilhou. UTM não é essencial — site abre igual sem `?utm_...`. Mostra Chrome UTM Stripper a limpar no desktop ao copiar.
+
+---
+
 # O teu Plano de Ação — HOJE (5 passos)
 
 1. ✅ Gestor (Bitwarden) + importa + troca email/banca
@@ -451,6 +469,7 @@ Primeira metade dos links. Diz que PDF tem tudo clicável. Segunda metade no pr�
 
 **Testa & Truques**
 - [coveryourtracks.eff.org](https://coveryourtracks.eff.org)
+- [altsea.app](https://altsea.app) • [chrome-utm-stripper](https://github.com/jparise/chrome-utm-stripper)
 - support.google.com/mail/answer/5238509
 
 > PDF com todos os links será partilhado
