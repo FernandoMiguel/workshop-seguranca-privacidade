@@ -3,7 +3,7 @@
 > Workshop prático de 75 min para iniciantes — Passwords • Passkeys • Privacidade • DNS • Ad-blocking
 
 **Autor:** Fernando 🐼 — Setembro 2026  
-**Slides:** [Google Slides (FINAL v7.2, 32 slides, Geometric)](https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk)
+**Slides:** [Google Slides (FINAL v7.3, 33 slides, Geometric)](https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk)
 
 ## Estrutura
 
@@ -21,11 +21,12 @@
 - Ad Tracking IDs (IDFA/GAID)
 - DNS Filtering (Cloudflare Families, DNS4EU, NextDNS)
 - Ad Blocking (nuMatrix, uBlock Origin, Privacy Badger)
+- Limpeza de URLs com tracking (`utm`, `fbclid`, `igsh` — doxing)
 - Bónus: Email Aliasing, VPN
 
 ## Ficheiros
 
-- `slides-ptpt.md` — Fonte do deck (PT-PT, 32 slides, com hyperlinks `[display](url)` e speaker notes)
+- `slides-ptpt.md` — Fonte do deck (PT-PT, 33 slides, com hyperlinks `[display](url)` e speaker notes)
 - `plan.md` — Plano completo do workshop com log de versões
 - `assets/` — Imagens + QR Codes (grids + individuais)
 
@@ -33,7 +34,7 @@
 
 - ID: `1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI`
 - Tema: Geometric (master `g3f8ad842be2_1_1073` + barra ACCENT1 no layout Blank via API)
-- QR: `qr-grid-passwords.png` (5 QRs), `qr-grid-privacidade.png` (6 QRs), `qr-grid-todos.png` + 12 individuais
+- Deck: 33 slides (v7.3) — https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk
 
 ## Licença
 
