@@ -30,8 +30,6 @@ Formato exigido pelo `gog slides create-from-markdown`:
   - Imagens: `gog slides insert-image --width 80 --x 620 --y 8 <id> <slideId> assets/qr-...png` (canto) ou `--width 640 --x 40 --y 90` (grid centralizado)
   - Notas: `gog slides update-notes <id> <slideId>`
 - **Tema Geometric:** master é `Geometric` (`g3f8ad842be2_1_1073`) mas layout `Blank` (`g3f8ad842be2_1_1147`) vem sem shapes — por isso deck parecia "Simples" em anónima. Fix v7.2 adicionou `geom_rect_blank` (RECTANGLE 720x12 PT, ACCENT1) ao layout Blank via `presentations.batchUpdate`. Se recriar deck, reaplicar ou usar layouts `TITLE`/`TITLE_AND_BODY` que já têm barra.
-- **Validar sempre em janela anónima** — barra azul-escura no topo deve aparecer em todos os 33 slides.
-- **Gamma descartado** — limite 24 slides no free; não tentar automatizar `gamma.app` (Cloudflare Turnstile bloqueia).
 
 ## Assets & QR
 - Grids foram gerados single-row compactos para caber em `--width 640`; não voltar a grelhas 2-row.
@@ -39,6 +37,5 @@ Formato exigido pelo `gog slides create-from-markdown`:
 - `assets/qr-grid-todos.png` é handout, não vai para slides.
 
 ## Git
-- `main` é branch única; push direto (sem PR flow configurado)
 - Commit msgs em PT-PT, escopo `feat:` para deck; incluir ID do Slides e versão no body
 - Não commitar `.DS_Store` (já em `.gitignore`)

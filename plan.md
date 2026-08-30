@@ -9,15 +9,8 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
 
 ## 2. Plataforma Sugerida para Slides
 
-**Recomendação principal: Gamma (gamma.app)**
-*   Moderna, design automático muito bonito, IA gera slides a partir de outline
-*   Exporta para Google Slides / PowerPoint / PDF
-*   Permite partilhar link online interativo, incorporar vídeos/demos
-*   Alternativa 1: **Google Slides** - se precisares de colaboração em tempo real e já tens conta Google (menos bonito, mais compatível)
-*   Alternativa 2: **Canva Apresentações** - templates muito polidos, bom para redes sociais (reels/thumbs)
-*   Alternativa 3: **Pitch.com** - muito moderno para startups/tech
+* **Google Slides** - se precisares de colaboração em tempo real e já tens conta Google (menos bonito, mais compatível)
 
-> **Decisão 2026-08-29:** Vamos experimentar **Gamma** como design principal, mas **vamos criar já em Google Slides via `gog` CLI** (conta tldr@fernandomiguel.net) para teres link partilhável imediato. O deck do Gamma pode ser exportado/importado depois.
 
 ## 3. Estrutura Final Aprovada (60-90 min MAX | Público: Iniciantes)
 
@@ -86,21 +79,8 @@ Capacitar participantes (nível iniciante a intermédio) a protegerem contas, da
 5.  [ ] Traduções PT-BR e EN-US (após OK)
 6.  [ ] Roteiros vídeo long + shorts (fase 2)
 
-## 7. Log de Atualizações
-*   2026-08-29: Criação inicial do plano com base no briefing
-*   2026-08-29 19:42: Atualizado com decisões: 60-90min iniciantes, Google Slides via gog + Gamma, inclusão de Phishing IA / Email aliasing / Modo Incógnito / nuMatrix+uBlock, vídeos fase 2
-*   2026-08-29 19:45: Gerado `slides-ptpt.md` (PT-PT, com speaker notes). Tentativa inicial falhou: Slides API desativada. Corrigido formato `## Notas` -> `## Notes` e estrutura `---`.
-*   2026-08-29 19:49: **Google Slides FINAL criado com sucesso** (25 slides, ID 14t8lspc..., com notas embebidas). Versões antigas com 50 slides apagadas (trash). API ativada, conta Gamma criada.
-*   2026-08-29 19:55: Adicionados a pedido: slide dedicado VPN (quando usar, o que protege, cilada VPNs grátis, Mullvad/Proton/IVPN) + expansão Email Aliasing (Gmail dot/plus tricks e Outlook aliases vs aliasing real). Deck re-gerado: **FINAL v3, 26 slides, ID 1uozm1Bs...** (antigo 25 slides arquivado).
-*   2026-08-30 12:38: **Atualização QR + Links:** Removido Authy → Ente Auth/Aegis/Proton/2FAS. Links clicáveis em todos os slides. 2 slides QR dedicados (5+6 QRs) com grids embebidos via `insert-image`. Deck: **FINAL v5, 28 slides, ID 1J7DSJmRP...** Assets em `workshop/assets/`.
-*   2026-08-30 12:50: **Fix layout (reportado):** Removidas tabelas `|---|---|` → listas com bullets. Reduzido volume texto 3x overflow → todos <510 chars (Recursos 1/2+2/2, Aliasing 2 slides, VPN 2 slides, nuMatrix separado). QR dedicados minimalistas sem texto por trás + QRs de canto (80pt) em 8 slides demo. Deck: **FINAL v6, 32 slides, ID 1in5AlmR...** v5 arquivado.
-*   2026-08-30 13:40: **Trim fix (reportado v6):** Data Agosto→Setembro (slide 1), slide 17 com router explícito, slides 6/8/28/29 encurtados (sem overflow, <300 chars), removida linha "Slides + gravação...", slide 31 QR fora corrigido — grids re-gerados single-row compactos (1398x364 e 1494x334, só título nos slides QR, sem body "Aponta") e re-inseridos em slide_30/31 (640pt, y=90) + 8 QRs canto re-inseridos. Deck: **FINAL v7, 32 slides, ID 1mWsPX46...** v6 arquivado.
-*   2026-08-30 14:10: **Hyperlinks + 1Password (preserva edições):** Reposição de 1Password em slide 6 via `insert-text` (insertion-index 194) sem recriar deck — mantém tuas pequenas alterações. Todos os displays curtos agora com hyperlink via `gog slides link --range` (20+ links em 10 slides: bitwarden.com→https, proton.me/pass, 1password.com, passkeys.directory, haveibeenpwned.com, one.one.one.one/family, joindns4.eu, my.nextdns.io, ublockorigin.com, privacybadger.org, ente.io/auth, simplelogin.io, etc.). Markdown atualizado para `[display](https://url)` para futuras recriações. Deck mantido **v7.1** (mesmo ID).
-*   2026-08-30 14:20: **Gamma trial:** Criado `slides-gamma.md` (versão sem `## Notes`, otimizada para paste no Gamma — 32 cards, texto ainda mais curto, links mantidos). Tentativa de automação via Chrome Canary bloqueada por Cloudflare Turnstile em gamma.app/signin (challenge humano obrigatório) — instruções manuais adicionadas. Gamma descartado (limite 24 slides free).
-*   2026-08-30 15:00: **Geometric fix (tema não aplicava):** Master já era `Geometric` (`g3f8ad842be2_1_1073`) mas 32 slides usavam layout `Blank` (`g3f8ad842be2_1_1147`) sem shapes — por isso vias “Simples” em anónima apesar do master ser Geometric. Criados 2 demos com layout correto (`TITLE` `g3f8ad842be2_1_1077` e `TITLE_AND_BODY` `g3f8ad842be2_1_1096`) confirmaram visual. Solução: adicionado `geom_rect_blank` (RECTANGLE 720x12 PT, ACCENT1) ao layout Blank via `presentations.batchUpdate` — todos os 32 slides herdaram barra superior Geometric sem recriar, preservando 1Password/panda/hyperlinks/QRs. 2 demos removidos. Cópia `19VAS...` e v8 `1Wy...`/`1Xvw...` apagadas. Deck final **v7.2** com 32 slides, pronto em anónima.
-
-## 8. Links e Ficheiros
-*   **Google Slides FINAL v7.2 (PT-PT):** https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk (32 slides, Geometric via Blank+barra, com QRs canto + grids single-row) — testa em anónima, já com barra ACCENT1 no topo
+## 7. Links e Ficheiros
+*   **Google Slides (PT-PT):** https://docs.google.com/presentation/d/1mWsPX462FzkpJbWS1EckhIhMHHW_8M-5r3rfYvy87gI/edit?usp=drivesdk (32 slides, Geometric via Blank+barra, com QRs canto + grids single-row) — testa em anónima, já com barra ACCENT1 no topo
 *   **Ficheiro fonte:** `workshop/slides-ptpt.md` (editável, com `[display](https://url)` hyperlinks)
 *   **Assets QR:** `workshop/assets/qr-grid-passwords.png` (1398x364, 5 QRs), `qr-grid-privacidade.png` (1494x334, 6 QRs single-row), `qr-grid-todos.png` + 12 PNGs individuais
 *   **Gamma:** descartado (limite 24). Mantido gslides com Geometric (master `Geometric` + barra no Blank layout `g3f8ad842be2_1_1147` via `geom_rect_blank`)
