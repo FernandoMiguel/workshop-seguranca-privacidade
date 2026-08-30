@@ -273,6 +273,9 @@ Analogia lista telefónica. Diagrama Dispositivo → DNS → Internet. Leve, rá
 # DNS Filtering — 3 porteiros
 
 **1. Cloudflare Families** — [one.one.one.one/family](https://one.one.one.one/family)
+- `1.1.1.2` malware • `1.1.1.3` malware+adulto
+
+**2. DNS4EU** — [joindns4.eu](https://www.joindns4.eu)
 - UE, GDPR, sem logs, `86.54.11.13`
 
 **3. NextDNS** — [my.nextdns.io](https://my.nextdns.io)
@@ -417,12 +420,12 @@ Alerta forte: pior que sem VPN. Muitas grátis são da mesma empresa chinesa. Se
 
 **Ferramentas:**
 - **Android:** [altsea.app](https://altsea.app) — cola o link → copia limpo
-- **Desktop:** [Chrome UTM Stripper](https://github.com/jparise/chrome-utm-stripper) — remove auto ao copiar
+- **Desktop:** [Tracking Token Stripper](https://github.com/jparise/chrome-utm-stripper) — remove auto ao copiar
 
 > Partilhar link sujo = partilhar o teu rasto
 
 ## Notes
-DEMO ao vivo: copia link Instagram com `?igsh=` → cola em altsea.app → mostra link limpo. Explica doxing: `igsh` devolve ao perfil de quem partilhou. UTM não é essencial — site abre igual sem `?utm_...`. Mostra Chrome UTM Stripper a limpar no desktop ao copiar.
+DEMO ao vivo: copia link Instagram com `?igsh=` → cola em altsea.app → mostra link limpo. Explica doxing: `igsh` devolve ao perfil de quem partilhou. UTM não é essencial — site abre igual sem `?utm_...`. Mostra Tracking Token Stripper a limpar no desktop ao copiar.
 
 ---
 
@@ -469,7 +472,8 @@ Primeira metade dos links. Diz que PDF tem tudo clicável. Segunda metade no pr�
 
 **Testa & Truques**
 - [coveryourtracks.eff.org](https://coveryourtracks.eff.org)
-- [altsea.app](https://altsea.app) • [chrome-utm-stripper](https://github.com/jparise/chrome-utm-stripper)
+- [altsea.app](https://altsea.app)
+- [Tracking Token Stripper](https://github.com/jparise/chrome-utm-stripper)
 - support.google.com/mail/answer/5238509
 
 > PDF com todos os links será partilhado
